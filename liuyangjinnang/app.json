@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index"
+  ],
+  "window": {
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "留洋锦囊",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+  }
+}
