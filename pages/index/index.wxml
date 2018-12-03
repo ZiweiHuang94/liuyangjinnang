@@ -1,3 +1,7 @@
 <!--pages/index/index.wxml-->
 <view> {{ message }} </view>
+<view class="pic-show">
+<image style="width: 160px; height: 160px;" mode="aspectFill" src="../images/goldie.jpg"></image>
+<image style="width: 160px; height: 160px;" mode="aspectFill" src="../images/cutecat.jpg"></image>
+</view>
 
