@@ -1,7 +1,11 @@
 <!--pages/index/index.wxml-->
-<view> {{ message }} </view>
+<!--<view> {{ message }} </view>-->
 <view class="pic-show">
-<image style="width: 160px; height: 160px;" mode="aspectFill" src="../images/goldie.jpg"></image>
 <image style="width: 160px; height: 160px;" mode="aspectFill" src="../images/cutecat.jpg"></image>
+<image src="https://7374-stayingabroad1-d3dbd1-1258081296.tcb.qcloud.la/unicon.jpg?sign=ac9e7c3d245c6cf2877575c170e66945&t=1557045852"></image>
 </view>
+
+ <button type='primary' bindtap='openpdf'>open pdf</button>
+
+<text>当前时间：{{time}}</text>
 

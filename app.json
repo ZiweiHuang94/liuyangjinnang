@@ -9,5 +9,12 @@
   "navigationBarTitleText": "留洋锦囊",
   "backgroundColor": "#eeeeee",
   "backgroundTextStyle": "light"
-  }
+  },
+  "tabBar": {
+    "list": [
+      { "text": "Tab1", "pagePath": "pages/index/index" },
+      { "text": "Tab2", "pagePath": "pages/index/index" },
+      { "text": "Tab3", "pagePath": "pages/index/index" }
+    ]
+  }   
 }

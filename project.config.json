@@ -9,7 +9,8 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.1",
@@ -35,6 +36,7 @@
 		"miniprogram": {
 			"current": -1,
 			"list": []
-		}
+		},
+    "miniprogramRoot": "./dist"
 	}
 }
