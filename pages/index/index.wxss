@@ -1,1 +1,24 @@
 /* pages/index/index.wxss */
+.title{
+
+font-size: 60rpx;
+
+color: dark;
+
+}
+
+.content1{
+
+font-size: 40rpx;
+
+color: dark;
+
+}
+
+.subtitle{
+
+font-size: 50rpx;
+
+color: blue;
+
+}

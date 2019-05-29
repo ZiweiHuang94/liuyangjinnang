@@ -1,11 +1,48 @@
 <!--pages/index/index.wxml-->
 <!--<view> {{ message }} </view>-->
-<view class="pic-show">
-<image style="width: 160px; height: 160px;" mode="aspectFill" src="../images/cutecat.jpg"></image>
-<image src="https://7374-stayingabroad1-d3dbd1-1258081296.tcb.qcloud.la/unicon.jpg?sign=ac9e7c3d245c6cf2877575c170e66945&t=1557045852"></image>
+
+<view>
+<text class="title">Personal Finance</text>
 </view>
 
- <button type='primary' bindtap='openpdf'>open pdf</button>
+<view>
+<text class="content">瑞典银行账户的个人账户是没有利息的。如果父母一次汇款较多的生活费，可以通过一定的方式进行资产增值，抵御通货膨胀。常见的投资手段有定期储蓄和投资基金股票。
+
+</text>
+</view>
+
+<view>
+<text class="subtitle">定期存款
+</text>
+</view>
+
+<view>
+<text class="content">定期储蓄收益固定，分险较小。常见的方式有两种，一是在自己的银行开通定期存款账户。比如SEB银行，6个月定期存款的利率是0.15%。另一种是在一些金融公司存入一定金额的现金，到期后获得本金和利息。比如Spar Akelius 公司利息可以有5%。
+注意在选择金融公司的时候检查它是否具有skyddets begränsning。 如果金融公司具有skyddets begränsning，当公司破产的时候，可以赔偿储户的存款。 比如说Nordea银行可以最多赔偿储户100 000 euro
+</text>
+</view>
+
+<view class="pic-show">
+<image src="https://7374-stayingabroad1-d3dbd1-1258081296.tcb.qcloud.la/finance1.PNG?sign=30a12c1b11051e4b6ad9579204664258&t=1559156749"></image>
+</view>
+
+<view>
+<text class="subtitle">基金证券</text>
+</view>
+
+<view>
+<text class="content">投资基金(Fonder)或者证券(Värdepapper)的风险相对较高。可以通过券商公司进行交易，比如Avanza或者Nordnet等。 也可以在在自己银行提供的交易账户进行交易，比如Nordea或者SEB银行。
+</text>
+</view>
+
+<view class="pic-show">
+<image src="https://7374-stayingabroad1-d3dbd1-1258081296.tcb.qcloud.la/finance2.PNG?sign=337ff2c73f0d681574f74ab82aff5eaa&t=1559156859"></image>
+</view>
+
+<!--
+<view class="pic-show">
+<image style="width: 160px; height: 160px;" mode="aspectFill" src="../images/cutecat.jpg"></image>
+</view>
 
 <text>当前时间：{{time}}</text>
-
+-->
