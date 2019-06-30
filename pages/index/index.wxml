@@ -1,5 +1,4 @@
 <!--pages/index/index.wxml-->
-<!--<view> {{ message }} </view>-->
 
 <view>
 <text class="title">Personal Finance</text>

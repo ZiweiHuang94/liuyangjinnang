@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/newPage/newPage",
     "pages/index/index",
     "pages/logs/index"
   ],
@@ -12,7 +13,7 @@
   },
   "tabBar": {
     "list": [
-      { "text": "Tab1", "pagePath": "pages/index/index" },
+      { "text": "Homepage", "pagePath": "pages/newPage/newPage" },
       { "text": "Tab2", "pagePath": "pages/index/index" },
       { "text": "Tab3", "pagePath": "pages/index/index" }
     ]

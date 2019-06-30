@@ -1,0 +1,47 @@
+<view> {{ message }} </view>
+
+<!--navigator标签自带点击按压背景变色效果  -->
+<view class='tab_container'>
+ <view class='tab_header'>
+ </view>
+
+<view class='tab_content' class='tab_content'>
+   <view class='nav-view-two'>
+     <navigator url='../index/index' open-type="switchTab" class='nav_one'>
+        <text class='nav_text'>Finance</text>
+        <view class='icon-arrow'></view>
+     </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../index/index' open-type="switchTab" class='nav_one'>
+    <text class='nav_text'>Insurance</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../tab_two/tab_two' class='nav_one'>
+    <text class='nav_text'>Example1</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../tab_two/tab_two' class='nav_one'>
+    <text class='nav_text'>Example2</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../tab_two/tab_two' class='nav_one'>
+    <text class='nav_text'>Example3</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+</view>
+
+<view class='bottom'>
+</view>
+</view>
