@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/mainPage/mainPage",
+    "pages/schoolList/schoolList",
+    "pages/newspage/newspage",
+    "pages/schoolpage/schoolpage",
     "pages/newPage/newPage",
     "pages/index/index",
     "pages/logs/index"
@@ -13,9 +17,9 @@
   },
   "tabBar": {
     "list": [
-      { "text": "Homepage", "pagePath": "pages/newPage/newPage" },
-      { "text": "Tab2", "pagePath": "pages/index/index" },
-      { "text": "Tab3", "pagePath": "pages/index/index" }
+      { "text": "资讯", "pagePath": "pages/mainPage/mainPage" },
+      { "text": "锦囊", "pagePath": "pages/schoolList/schoolList" },
+      { "text": "收藏", "pagePath": "pages/schoolList/schoolList" }
     ]
   }   
 }

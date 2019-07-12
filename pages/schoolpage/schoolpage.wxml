@@ -1,0 +1,5 @@
+<view class="SchoolCard">
+  <view class="Photo" ></view>
+  <text class="h1">瑞典 | 查尔姆斯理工</text>
+  <text class="h2">Chalmers Institute of Technology</text>
+</view>

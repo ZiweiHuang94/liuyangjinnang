@@ -1,0 +1,72 @@
+.SchoolList {
+  /* border: 1px solid green; */
+  position: relative;
+  margin: 0 20px;
+}
+
+.School {
+  position: relative;
+  top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_bar {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin-left: 20rpx;  
+}
+
+.defaultInput{  
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 5px;  
+}
+
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+}
+
+.SchoolCard {
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px 0px rgba(120, 120, 120, 0.3);
+  overflow: hidden;
+  margin-bottom: 35px;
+  width: 160px;
+  height: 192px;
+  text-align: left;
+  position: relative;
+}
+
+.Photo {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 60%;
+  background-image: url("https://7374-stayingabroad1-d3dbd1-1258081296.tcb.qcloud.la/20161115RITMAGICSpellrendering.jpg?sign=a72e6956b035d70f2d4d745b52ebbed2&t=1562877707");
+  background-size: cover;
+}
+
+.h1 {
+  -webkit-text-fill-color: #000000;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}
+
+.h2 {
+  -webkit-text-fill-color: #000000;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  font-weight: 400;
+}

@@ -1,0 +1,6 @@
+<view class="NewsCard" >
+    <view class="Photo" ></view>
+        <text class="content1">美国买车指南--如何省钱买好车</text>
+        <text class="content2">11/11/2018</text>
+</view>
+

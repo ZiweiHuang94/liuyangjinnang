@@ -1,0 +1,13 @@
+<view class='SchoolList'>  
+    <view class="search">  
+        <view class="search_bar">  
+          <icon class="searchcion" size='20' type='search'></icon>  
+          <input class="defaultInput" placeholder="搜索想了解的内容" value="{{searchValue}}"/>  
+        </view>  
+    </view>  
+    <view class="School">  
+        <include src="../newspage/newspage.wxml"/>
+        <include src="../newspage/newspage.wxml"/>
+        <include src="../newspage/newspage.wxml"/>
+    </view>
+</view>

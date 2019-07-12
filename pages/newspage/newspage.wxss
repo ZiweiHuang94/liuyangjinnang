@@ -1,0 +1,40 @@
+.NewsCard {
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px 0px rgba(120, 120, 120, 0.3);
+  overflow: hidden;
+  margin-bottom: 35px;
+  height: 285px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+.Photo {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 70%;
+  background-image: url("https://7374-stayingabroad1-d3dbd1-1258081296.tcb.qcloud.la/20161115RITMAGICSpellrendering.jpg?sign=a72e6956b035d70f2d4d745b52ebbed2&t=1562877707");
+  background-size: cover;
+}
+
+.content1 {
+  -webkit-text-fill-color: #000000;
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}
+.content2 {
+  -webkit-text-fill-color: #999999;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}
+
+.NewsCard img {
+  position: absolute;
+  right: 10px;
+  top: 75%;
+}
